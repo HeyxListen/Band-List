@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		7A27FA622735935500BFDAA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27FA612735935500BFDAA4 /* AppDelegate.swift */; };
 		7A27FA642735935500BFDAA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27FA632735935500BFDAA4 /* SceneDelegate.swift */; };
-		7A27FA662735935500BFDAA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27FA652735935500BFDAA4 /* ViewController.swift */; };
 		7A27FA692735935500BFDAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A27FA672735935500BFDAA4 /* Main.storyboard */; };
 		7A27FA6B2735935600BFDAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A27FA6A2735935600BFDAA4 /* Assets.xcassets */; };
 		7A27FA6E2735935600BFDAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A27FA6C2735935600BFDAA4 /* LaunchScreen.storyboard */; };
+		7A27FA762735A83C00BFDAA4 /* BandListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27FA752735A83C00BFDAA4 /* BandListTableViewController.swift */; };
+		7A27FA782735A89A00BFDAA4 /* BandList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27FA772735A89A00BFDAA4 /* BandList.swift */; };
+		7A6EF0BB2742176100BDB8DA /* BandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6EF0BA2742176100BDB8DA /* BandTableViewCell.swift */; };
+		7A6EF0BD27421BD700BDB8DA /* AddEditBandTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6EF0BC27421BD700BDB8DA /* AddEditBandTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A27FA5E2735935500BFDAA4 /* Band List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Band List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A27FA612735935500BFDAA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A27FA632735935500BFDAA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A27FA652735935500BFDAA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A27FA682735935500BFDAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A27FA6A2735935600BFDAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A27FA6D2735935600BFDAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A27FA6F2735935600BFDAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A27FA752735A83C00BFDAA4 /* BandListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandListTableViewController.swift; sourceTree = "<group>"; };
+		7A27FA772735A89A00BFDAA4 /* BandList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandList.swift; sourceTree = "<group>"; };
+		7A6EF0BA2742176100BDB8DA /* BandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandTableViewCell.swift; sourceTree = "<group>"; };
+		7A6EF0BC27421BD700BDB8DA /* AddEditBandTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditBandTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				7A27FA612735935500BFDAA4 /* AppDelegate.swift */,
 				7A27FA632735935500BFDAA4 /* SceneDelegate.swift */,
-				7A27FA652735935500BFDAA4 /* ViewController.swift */,
 				7A27FA672735935500BFDAA4 /* Main.storyboard */,
+				7A6EF0BC27421BD700BDB8DA /* AddEditBandTableViewController.swift */,
+				7A27FA752735A83C00BFDAA4 /* BandListTableViewController.swift */,
+				7A6EF0BA2742176100BDB8DA /* BandTableViewCell.swift */,
+				7A27FA772735A89A00BFDAA4 /* BandList.swift */,
 				7A27FA6A2735935600BFDAA4 /* Assets.xcassets */,
 				7A27FA6C2735935600BFDAA4 /* LaunchScreen.storyboard */,
 				7A27FA6F2735935600BFDAA4 /* Info.plist */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A27FA662735935500BFDAA4 /* ViewController.swift in Sources */,
+				7A6EF0BB2742176100BDB8DA /* BandTableViewCell.swift in Sources */,
+				7A27FA762735A83C00BFDAA4 /* BandListTableViewController.swift in Sources */,
 				7A27FA622735935500BFDAA4 /* AppDelegate.swift in Sources */,
+				7A27FA782735A89A00BFDAA4 /* BandList.swift in Sources */,
+				7A6EF0BD27421BD700BDB8DA /* AddEditBandTableViewController.swift in Sources */,
 				7A27FA642735935500BFDAA4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
